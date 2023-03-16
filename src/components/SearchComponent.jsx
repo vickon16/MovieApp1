@@ -14,6 +14,7 @@ const SearchComponent = () => {
       return;
     }
     dispatch(setSearchTerm(searched))
+    setSearched("")
   }
 
   return (
